@@ -12,8 +12,8 @@ Este proyecto utiliza ChromaDB para crear y gestionar una colección de document
 1. Clona este repositorio:
 
     ```bash
-    git clone https://github.com/tu-usuario/tu-repositorio.git
-    cd tu-repositorio
+    git https://github.com/lordbasex/python-examples.git
+    cd python-examples/python-chromadb
     ```
 
 2. Crea un entorno virtual (opcional, pero recomendado):
@@ -76,4 +76,4 @@ Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request p
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto está bajo la GNU General Public License v3.0 Consulta el archivo `LICENSE` para más detalles.
