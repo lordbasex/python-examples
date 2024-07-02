@@ -11,21 +11,21 @@ Este proyecto utiliza ChromaDB para crear y gestionar una colección de document
 
 1. Clona este repositorio:
 
-    ```bash
+    ```
     git https://github.com/lordbasex/python-examples.git
     cd python-examples/python-chromadb
     ```
 
 2. Crea un entorno virtual (opcional, pero recomendado):
 
-    ```bash
+    ```
     python3 -m venv venv
     source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
     ```
 
 3. Instala las dependencias:
 
-    ```bash
+    ```
     pip install -r requirements.txt
     ```
 
@@ -33,7 +33,7 @@ Este proyecto utiliza ChromaDB para crear y gestionar una colección de document
 
 Para crear la colección "matrix" y añadir documentos relacionados con la película, ejecuta el siguiente script:
 
-    ```bash
+    ```
     python3 intro.py
     ```
 
@@ -47,19 +47,19 @@ Este script hará lo siguiente:
 
 Para realizar búsquedas en la colección "matrix", usa el siguiente script:
 
-    ```bash
+    ```
     python3 search.py "tu consulta de búsqueda"
     ```
 
 Por ejemplo:
 
-    ```bash
+    ```
     python3 search.py "ciencia ficción distópica"
     ```
 
 También puedes especificar el número de resultados a devolver:
 
-    ```bash
+    ```
     python3 search.py "ciencia ficción distópica" --n_results 3
     ```
 
