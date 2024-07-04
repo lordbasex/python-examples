@@ -8,6 +8,7 @@ services:
     image: chromadb/chroma
     environment:
       - IS_PERSISTENT=TRUE
+      - CHROMA_SERVER_CORS_ALLOW_ORIGINS=["http://localhost:3000"]
     volumes:
       # Default configuration for persist_directory in chromadb/config.py
       # Currently it's located in "/chroma/chroma/"
